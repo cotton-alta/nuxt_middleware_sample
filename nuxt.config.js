@@ -4,6 +4,9 @@ module.exports = {
   /*
   ** Headers of the page
   */
+
+  srcDir: './client',
+  
   head: {
     title: process.env.npm_package_name || '',
     meta: [
